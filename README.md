@@ -5,8 +5,8 @@
 
 **Generate 2 ssh keys:**
 ```
-$ ssh-keygen -t rsa -C "personal@example.com" -f "id_rsa_personal"
-$ ssh-keygen -t rsa -C "work@example.com" -f "id_rsa_work"
+$ ssh-keygen -t rsa -b 4096 -C "personal@example.com" -f "id_rsa_personal"
+$ ssh-keygen -t rsa -b 4096 -C "work@example.com" -f "id_rsa_work"
 ```
 
 
